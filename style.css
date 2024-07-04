@@ -1,0 +1,147 @@
+@font-face {    
+    font-family: indroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
+}
+
+@font-face{
+    font-family: coolvetica;
+    src: url(pacote-projeto-d010/fontes/coolvetica\ compressed\ hv.otf) format(opentype);
+}
+
+
+
+
+
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: #b2b2b4;
+}
+
+header{
+    padding: 20px;
+    color: white;
+    background-image: linear-gradient(to bottom, #92d830, #248624);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.336);
+}
+
+header > h1{
+    margin: 20px;
+    font-family: coolvetica;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+header > h1 , p{
+    text-align: center;
+}
+
+
+
+
+
+nav {
+    background-color: #248624;
+    margin: 10px 0px 5px 10px;
+    padding: 1em 1em 1em 0em;
+    border-radius: 5px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-inline: 1em;
+}
+
+nav > a:hover{
+    font-weight: bolder;
+    background-color: #639e0f;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+main{
+    background-color: #f7f7f7;
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+a.simples {
+    padding: 3px;
+    background-color: #24862454;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+main > h1 , h2 , h3 {
+    font-family: indroid;
+    background-color: #6ada6a;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+main > p {
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+
+div.midia{
+    display: flex;
+    justify-content: center;
+}
+
+#video{
+    background-image: linear-gradient(to bottom, #639e0f, #248624);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.205);
+    margin: 0px -20px 0px -20px;
+}
+
+div#video > div{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+div#extras{
+    background-color: #c0f378;
+    border-radius: 7px;
+    padding-bottom: 10px;
+}
+
+#extras > p {
+    text-align: justify;
+    padding-inline-start: 10px;
+    margin: 10px;
+}
+
+#extras > ul {
+    list-style: "\1F5F8";
+    columns: 2;
+}
+
+li > a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(1, 46, 1);
+}
+li:hover > a{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(3, 71, 43);
+}
